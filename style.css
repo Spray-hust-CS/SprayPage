@@ -1,0 +1,484 @@
+body{
+    font-size: 24px;
+    margin: 0;
+}
+header{
+    background-color: rgba(36, 25, 9, 0.845);
+    padding: 10px;
+    width: 100%;
+    position:fixed;
+    height: 50px;
+}
+header h1{
+    font-size: 32px;
+    position: absolute;
+    left: 90px;
+    top:0;
+    line-height: 25px;
+}
+header a{
+    color: rgb(217, 163, 81);
+    text-decoration: none;
+}
+header ul{
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    line-height: 40px;
+}
+header li{
+    display: inline;
+    margin-right: 5vw;
+}
+.title{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-image: url("imagse/西湖.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 30%;
+    top: 250px;
+    background-color: rgba(252, 245, 231, 0.614);
+    width: 700px;
+    height: 270px;
+    border-radius: 7px;
+}
+.title h2{
+    color: rgb(255, 161, 67)
+}
+.title a{
+    text-decoration: none;
+    color: rgb(249, 147, 46);
+}
+
+.zhy{
+    position: fixed;
+    top: 70px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgb(255, 235, 205);
+    overflow-y: auto;
+}
+
+.welc0{
+    position: relative;
+    height: 90px;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgba(237, 173, 88, 0.91);
+    color: rgba(223, 123, 41, 0.911);
+}
+.welc0 h2{
+    top: 15px;
+    height: 60px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    border: 5px none solid;
+    border-radius: 7px;
+    line-height: 55px;
+    background-color:  rgb(255, 235, 205);
+}
+
+.navpro a{
+    text-decoration: none;
+    color: rgb(249, 147, 46);
+    padding: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.mai{
+    position: fixed;
+    top: 70px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgb(255, 235, 205);
+    color: rgba(223, 123, 41, 0.911);
+}
+
+.welc1{
+    position: relative;
+    height: 90px;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgba(237, 173, 88, 0.91);
+}
+.welc1 h2{
+    top: 15px;
+    height: 60px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    border: 5px none solid;
+    border-radius: 7px;
+    line-height: 55px;
+    background-color:  rgb(255, 235, 205);
+}
+
+.navpro{
+    top: 10px;
+    left: 5%;
+    width: 200px;
+    height: 710px;
+    margin-top: 3vw;
+    position: relative;
+    background-color: rgba(255, 235, 205, 0.803);
+    border: 10px rgba(223, 174, 110, 0.91) solid;
+    border-radius: 5px;
+    right: 10px;
+    padding: 10px;
+    margin: 15px;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.profile img{
+    top: 55px;
+    right: 300px;
+    width: 275px;
+    position: absolute;
+}
+.profile{
+    position: relative;
+    top: -755px;
+    right: 10px;
+    left: 21%;
+    width: 70%;
+    height: calc(100%-50px);
+    overflow-y: auto;
+    background-color: rgba(255, 235, 205, 0.803);
+    border: 10px rgba(223, 174, 110, 0.91) solid;
+    height: 710px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    display: block;
+    unicode-bidi: isolate;
+}
+.profile p{
+    left: 70px;
+    position: relative;
+    line-height: 1.8em;
+}
+
+.adored{
+    position: fixed;
+    top: 70px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgb(255, 235, 205);
+    color: rgba(223, 123, 41, 0.911);
+    overflow-y: auto;
+}
+
+.welc2{
+    position: relative;
+    height: 90px;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgba(237, 173, 88, 0.91);
+}
+.welc2 h2{
+    top: 15px;
+    height: 60px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    border: 5px none solid;
+    border-radius: 7px;
+    line-height: 55px;
+    background-color:  rgb(255, 235, 205);
+}
+
+.part1{
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.tour{
+    color: rgb(249, 147, 46);
+    background-color: rgb(255, 235, 205);
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 80px;
+}
+.tour div{
+    position: relative;
+    top: -170px;
+    background-color: rgba(0, 0, 0, 0.196);
+    width: 450px;
+    text-align: center;
+    border-radius: 7px;
+}
+.tour img{
+    width: 80%;
+    border-radius: 7px;
+}
+.tour h3{
+    margin: 20px 0;
+}
+
+.draws{
+    color: rgb(249, 147, 46);
+    background-color: rgb(255, 235, 205);
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 80px;
+}
+.draws div{
+    position: relative;
+    top: -170px;
+    background-color: rgba(0, 0, 0, 0.196);
+    width: 450px;
+    text-align: center;
+    border-radius: 7px;
+}
+.draws img{
+    width: 80%;
+    border-radius: 7px;
+}
+.draws h3{
+    margin: 20px 0;
+}
+
+.album{
+    position: fixed;
+    top: 70px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgb(255, 235, 205);
+    color: rgba(223, 123, 41, 0.911);
+    overflow-y: auto;
+}
+
+.welc3{
+    position: relative;
+    height: 90px;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgba(237, 173, 88, 0.91);
+}
+.welc3 h2{
+    top: 15px;
+    height: 60px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    border: 5px none solid;
+    border-radius: 7px;
+    line-height: 55px;
+    background-color:  rgb(255, 235, 205);
+}
+
+.part2{
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.outsi{
+    color: rgb(249, 147, 46);
+    background-color: rgb(255, 235, 205);
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 80px;
+}
+.outsi div{
+    position: relative;
+    top: -170px;
+    background-color: rgba(0, 0, 0, 0.196);
+    width: 450px;
+    text-align: center;
+    border-radius: 7px;
+}
+.outsi img{
+    width: 80%;
+    border-radius: 7px;
+}
+.outsi h3{
+    margin: 20px 0;
+}
+
+.insi{
+    color: rgb(249, 147, 46);
+    background-color: rgb(255, 235, 205);
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px 80px;
+}
+.insi div{
+    position: relative;
+    top: -170px;
+    background-color: rgba(0, 0, 0, 0.196);
+    width: 375px;
+    text-align: center;
+    border-radius: 7px;
+}
+.insi img{
+    width: 80%;
+    border-radius: 7px;
+}
+.insi h3{
+    margin: 20px 0;
+}
+
+.drws{
+    color: rgb(249, 147, 46);
+    background-color: rgb(255, 235, 205);
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 100px 80px;
+}
+.drws div{
+    position: relative;
+    top: -170px;
+    background-color: rgba(0, 0, 0, 0.196);
+    width: 600px;
+    text-align: center;
+    border-radius: 7px;
+}
+.drws img{
+    width: 80%;
+    border-radius: 7px;
+}
+.drws h3{
+    margin: 20px 0;
+}
+
+.learning{
+    position: fixed;
+    top: 70px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgb(255, 235, 205);
+    color: rgba(223, 123, 41, 0.911);
+    overflow-y: auto;
+}
+
+.welc4{
+    position: relative;
+    height: 90px;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgba(237, 173, 88, 0.91);
+}
+.welc4 h2{
+    top: 15px;
+    height: 60px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    border: 5px none solid;
+    border-radius: 7px;
+    line-height: 55px;
+    background-color:  rgb(255, 235, 205);
+}
+
+.email{
+    position: fixed;
+    top: 70px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgb(255, 235, 205);
+    color: rgba(223, 123, 41, 0.911);
+    overflow-y: auto;
+}
+
+.welc5{
+    position: relative;
+    height: 90px;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgba(237, 173, 88, 0.91);
+}
+.welc5 h2{
+    top: 15px;
+    height: 60px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    border: 5px none solid;
+    border-radius: 7px;
+    line-height: 55px;
+    background-color:  rgb(255, 235, 205);
+}
+
+.mail{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+}
+
+.mail a{
+    color: rgba(237, 173, 88, 0.91);
+    text-decoration: none;
+    border: 3px solid rgba(223, 123, 41, 0.911);
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.cont{
+    align-items: center;
+}
+
+.cont div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+    left: 20%;
+    background-color: rgba(252, 245, 231, 0.614);
+    width: 60%;
+    height: 270px;
+    border-radius: 7px;
+}
+
+.cont p{
+    left: 70px;
+    position: relative;
+    line-height: 1.8em;
+}
